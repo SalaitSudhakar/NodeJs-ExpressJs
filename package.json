@@ -1,0 +1,19 @@
+{
+  "name": "express-day2",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodejs server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Sudhakar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
