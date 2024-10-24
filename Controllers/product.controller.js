@@ -13,6 +13,7 @@ export const getProducts = (req, res) => {
     .json({ message: "Data retrieved successfully", data: products });
 };
 
+// Get By Id
 export const getProductById = (req, res) => {
   const productId = req.params.id;
   console.log(`productId: ${productId}`);
@@ -28,6 +29,7 @@ export const getProductById = (req, res) => {
   });
 };
 
+// Create new product
 export const createProduct = (req, res) => {
   const { name, price } = req.body;
   const newProduct = {
